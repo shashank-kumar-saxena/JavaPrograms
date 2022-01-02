@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int n=1234006;
+        int n=sc.nextInt();
         String s=Integer.toString(n);
         int len=s.length(),lms=0,rhs=0;
         int []a=new int[s.length()];
