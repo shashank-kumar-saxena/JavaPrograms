@@ -1,8 +1,11 @@
 package com.shsnk.addTwoFraction;
 
+import java.util.Scanner;
+
 public class Solution {
     public static void main(String[] args) {
-        int n1=3,d1=500,n2=1,d2=500;
+        Scanner sc=new Scanner(System.in);
+        int n1=sc.nextInt(),d1=sc.nextInt(),n2=sc.nextInt(),d2=sc.nextInt();
         if(d1==d2)
         {
             System.out.println((n1+n2)+"/"+(d1));
