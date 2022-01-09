@@ -11,7 +11,7 @@ public class Solution {
         Scanner sc=new Scanner(System.in);
         String st="",s=sc.next();
         int count=1;
-        s=s+" ";
+        s=s;
         for(int i=1;i<s.length();i++)
         {
             if(s.charAt(i-1)==s.charAt(i))
