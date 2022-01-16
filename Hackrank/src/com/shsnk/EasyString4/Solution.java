@@ -5,6 +5,9 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+//aaABBb
+//A3b3
+//3a3b
 public class Solution {
 
     public static void main(String[] args) {
@@ -20,7 +23,7 @@ public class Solution {
             }
             else
             {
-                st=st+s.charAt(i-1);
+                st=st+s.charAt(i);
                 st=st+Integer.toString(count);
                 count=1;
             }

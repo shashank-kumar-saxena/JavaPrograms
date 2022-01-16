@@ -22,7 +22,6 @@ public class Solution {
                     count++;
                 }
             }
-            System.out.println(count);
             if(max<count)
             {
                 s=a[i];
@@ -30,6 +29,6 @@ public class Solution {
             }
             count=0;
         }
-        System.out.println(s);
+        System.out.println(s+" "+max);
     }
 }
