@@ -23,8 +23,9 @@ public class Solution {
             }
             else
             {
-                st=st+s.charAt(i);
                 st=st+Integer.toString(count);
+                st=st+Character.toLowerCase(s.charAt(i-1));
+
                 count=1;
             }
 
