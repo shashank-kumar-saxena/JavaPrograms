@@ -14,8 +14,8 @@ an integer, K Denoting of consecutive element Ali can change to zero in one oper
 Each line i of the N subsequent line (where 0<=i<N) Contains an integer describing A[i}.
 
 Sample Input:
-4
-1
+4//size of array
+1//value of k
 4
 1
 8
