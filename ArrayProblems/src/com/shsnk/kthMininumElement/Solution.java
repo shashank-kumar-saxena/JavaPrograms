@@ -35,7 +35,16 @@ public class Solution {
             int num=max(a,max);
             a[num]=0;
         }
-        
+        max=a[0];
+
+        for(int i=0;i<a.length;i++)
+        {
+            if(max<a[i])
+            {
+                max=a[i];
+            }
+        }
+        System.out.println(max);
     }
     static int max(int a[],int max)
     {
@@ -44,6 +53,7 @@ public class Solution {
         {
             if(max<a[i])
             {
+                max=a[i];
                 pos=i;
             }
         }
