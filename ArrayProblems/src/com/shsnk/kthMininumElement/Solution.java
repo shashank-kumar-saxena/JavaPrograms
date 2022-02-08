@@ -28,7 +28,16 @@ public class Solution {
         {
             a[i]=sc.nextInt();
         }
+        int max=a[0];
         int k=sc.nextInt();
+        for(int j=0;j<k;j++)
+        {
+            int n=max(a,max);
+            max=n;
+        }
+    }
+    static int max(int a[],int max)
+    {
         
     }
 }
