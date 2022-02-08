@@ -28,7 +28,7 @@ public class Solution {
         {
             a[i]=sc.nextInt();
         }
-        int max=a[0];
+        int max=Arrays.;
         int k=sc.nextInt();
         for(int j=0;j<k;j++)
         {
@@ -38,6 +38,9 @@ public class Solution {
     }
     static int max(int a[],int max)
     {
-        
+        for(int i=0;i<a.length;i++)
+        {
+            if(max<)
+        }
     }
 }
