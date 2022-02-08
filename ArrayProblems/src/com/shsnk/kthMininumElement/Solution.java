@@ -28,19 +28,25 @@ public class Solution {
         {
             a[i]=sc.nextInt();
         }
-        int max=Arrays.;
+        int max=0;
         int k=sc.nextInt();
-        for(int j=0;j<k;j++)
+        for(int j=0;j<k-1;j++)
         {
-            int n=max(a,max);
-            max=n;
+            int num=max(a,max);
+            a[num]=0;
         }
+        
     }
     static int max(int a[],int max)
     {
+        int pos=0;
         for(int i=0;i<a.length;i++)
         {
-            if(max<)
+            if(max<a[i])
+            {
+                pos=i;
+            }
         }
+        return (pos);
     }
 }
