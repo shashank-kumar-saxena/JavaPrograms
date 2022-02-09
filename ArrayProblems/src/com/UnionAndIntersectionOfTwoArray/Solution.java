@@ -38,14 +38,33 @@ public class Solution {
         {
             container.add(i);
         }
-        int count=0;
+        int c=0,store=0;
         for(int i=0;i<b.length;i++)
         {
             for(int j:container)
             {
-                
+                if(b[i]!=j)
+                {
+                    store=j;
+                }
+                else
+                {
+                    c++;
+                    break;
+                }
             }
+            if(c==0)
+            {
+                container.add(store);
+            }
+            c=0;
         }
+        c=0;
+        for(int i:container)
+        {
+            c++;
+        }
+        System.out.println(c);
     }
     static int[] assign(int[] a, int n)
     {
