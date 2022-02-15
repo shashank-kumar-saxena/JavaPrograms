@@ -22,8 +22,6 @@ You don't need to read input or print anything. Your task is to complete the fun
 * which takes the array arr[], low and high as input parameters and partitions the array. Consider the last element as
 * the pivot such that all the elements less than(or equal to) the pivot lie before it and the elements greater than it
 * lie after the pivot.
-
-
 */
 import java.util.Scanner;
 
