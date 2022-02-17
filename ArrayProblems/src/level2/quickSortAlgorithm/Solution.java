@@ -23,34 +23,34 @@ You don't need to read input or print anything. Your task is to complete the fun
 * the pivot such that all the elements less than(or equal to) the pivot lie before it and the elements greater than it
 * lie after the pivot.
 */
-import java.util.Scanner;
-
-public class Solution {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int a[]=new int[n];
-        for(int i=0;i<n;i++)
-        {
-            a[i]=sc.nextInt();
-        }
-        a=quickSort(a);
-    }
-    static int partition()
-    {
-
-    }
-    static int[] quickSort(int a[])
-    {
-        int i=0,j=a.length;
-        int pivot=a[0];
-
-        while (i!=j)
-        {
-            if(pivot>a[j])
-            {
-                partition()
-            }
-        }
-    }
-}
+//import java.util.Scanner;
+//
+//public class Solution {
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner(System.in);
+//        int n=sc.nextInt();
+//        int a[]=new int[n];
+//        for(int i=0;i<n;i++)
+//        {
+//            a[i]=sc.nextInt();
+//        }
+//        a=quickSort(a);
+//    }
+//    static int partition()
+//    {
+//
+//    }
+//    static int[] quickSort(int a[])
+//    {
+//        int i=0,j=a.length;
+//        int pivot=a[0];
+//
+//        while (i!=j)
+//        {
+//            if(pivot>a[j])
+//            {
+//                partition();
+//            }
+//        }
+//    }
+//}
