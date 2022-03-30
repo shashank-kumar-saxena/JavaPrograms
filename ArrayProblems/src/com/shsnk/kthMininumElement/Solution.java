@@ -23,40 +23,48 @@ public class Solution {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int a[]=new int[n];
+        int arr[]=new int[n];
         for(int i=0;i<n;i++)
         {
-            a[i]=sc.nextInt();
+            arr[i]=sc.nextInt();
         }
-        int max=0;
+        int l=arr.length;
+        int min=0;
         int k=sc.nextInt();
-        for(int j=0;j<k-1;j++)
+        int max=32767;
+        for(int i=0;i<k;i++)
         {
-            int num=max(a,max);
-            a[num]=0;
+            min=arr[i];
+            int pos=mi(arr,min);
+            arr[pos]=-50;
         }
-        max=a[0];
 
-        for(int i=0;i<a.length;i++)
+        for(int i=0;i<l;i++)
         {
-            if(max<a[i])
+
+            if(arr[i]!=-50&&max>arr[i])
             {
-                max=a[i];
+                max=arr[i];
             }
         }
         System.out.println(max);
+        for(int i=0;i<l;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
     }
-    static int max(int a[],int max)
+    static int mi(int a[],int n)
     {
         int pos=0;
         for(int i=0;i<a.length;i++)
         {
-            if(max<a[i])
+            if(a[i]!=-50&&n>a[i])
             {
-                max=a[i];
                 pos=i;
+                n=a[i];
             }
         }
         return (pos);
     }
+
 }
