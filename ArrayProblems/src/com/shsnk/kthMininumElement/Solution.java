@@ -18,6 +18,7 @@ Explanation :
 4th smallest ele*/
 package com.shsnk.kthMininumElement;
 
+import java.util.Arrays;
 import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
@@ -29,42 +30,11 @@ public class Solution {
             arr[i]=sc.nextInt();
         }
         int l=arr.length;
-        int min=0;
         int k=sc.nextInt();
-        int max=32767;
-        for(int i=0;i<k;i++)
-        {
-            min=arr[i];
-            int pos=mi(arr,min);
-            arr[pos]=-50;
-        }
-
-        for(int i=0;i<l;i++)
-        {
-
-            if(arr[i]!=-50&&max>arr[i])
-            {
-                max=arr[i];
-            }
-        }
-        System.out.println(max);
-        for(int i=0;i<l;i++)
-        {
-            System.out.print(arr[i]+" ");
-        }
+        Arrays.sort(arr);
+        int ele=l>0?arr[k-1]:arr[k];
+        System.out.println(ele);
     }
-    static int mi(int a[],int n)
-    {
-        int pos=0;
-        for(int i=0;i<a.length;i++)
-        {
-            if(a[i]!=-50&&n>a[i])
-            {
-                pos=i;
-                n=a[i];
-            }
-        }
-        return (pos);
-    }
+
 
 }
