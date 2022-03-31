@@ -39,6 +39,8 @@ public class Solution {
             container.add(i);
         }
         int c=0,store=0;
+
+
         for(int i=0;i<b.length;i++)
         {
             for(int j:container)
