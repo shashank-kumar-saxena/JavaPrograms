@@ -15,13 +15,13 @@ public class Solution {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int a[]=new int[n];
+        int A[]=new int[n];
         for(int i=0;i<n;i++)
         {
-            a[i]=sc.nextInt();
+            A[i]=sc.nextInt();
         }
         int x=sc.nextInt();
-        int freq=find(a,x);
+        int freq=find(A,x);
 
         System.out.println(freq);
     }
