@@ -1,5 +1,4 @@
 package com.shsnk.GreatestNumber;
-
 import java.util.Scanner;
 
 public class Solution {
