@@ -42,13 +42,14 @@ public class Solution {
         boolean b=false;
         for(int i=0;i<n;i++)
         {
-            for(int j=i+1;j<n;j++)
+            for(int j=i;j<n;j++)
             {
                 for(int k=i;k<=j;k++)
                 {
                     c=c+a[k];
                     st=st+Integer.toString(a[k])+" ";
                 }
+                System.out.println(st);
                 c++;
                 if(c==0&&st.length()>0)
                 {
