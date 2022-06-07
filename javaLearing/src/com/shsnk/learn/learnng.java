@@ -10,5 +10,6 @@ public class learnng {
         int bound=8;
         int s=random.nextInt(20);
         System.out.println(s);
+
     }
 }
