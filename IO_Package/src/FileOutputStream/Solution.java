@@ -14,7 +14,6 @@ public class Solution {
             File f2=new File("Write.txt");
             fi = new FileInputStream(f);
             fo=new FileOutputStream(f2);
-            String s="Shashank Kumar";
             int content;
             while ((content = fi.read()) != -1) {
                 fo.write((char)content);
