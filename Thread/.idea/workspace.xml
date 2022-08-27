@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3805399b-40d3-40b6-a840-d0e15659a004" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SyncThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/SyncThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Kaiser/IdeaProjects/Thread&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SyncThread">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Thread" />
@@ -53,8 +54,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SyncThread" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SyncThread" />
       </list>
     </recent_temporary>
   </component>
