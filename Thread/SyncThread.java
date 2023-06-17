@@ -27,11 +27,8 @@ public class SyncThread {
         t.join();
         t2.join();;
         System.out.println(count);
-        System.out.println(t2.getName());
     }
-    public  void incre(){
-        synchronized (this) {
+    public synchronized void incre(){
             count++;
-        }
     }
 }

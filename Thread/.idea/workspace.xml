@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3805399b-40d3-40b6-a840-d0e15659a004" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Comp/src/Arr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khushi/src/com/khushi/collection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khushi/src/com/khushi/thread/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comp/out/production/Comp/BinaryString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comp/out/production/Comp/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comp/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comp/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comp/src/StringEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comp/src/Xor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/Direction1/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/Direction1/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/EqualSubString/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/EqualSubString/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/JavaStringReverseConcatinate/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/JavaStringReverseConcatinate/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/MinimumDifferencePair1/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/MinimumDifferencePair1/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/SharingSubString/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/SharingSubString/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/TheChocolateProblem/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/TheChocolateProblem/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/guessTheCharacter/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/guessTheCharacter/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/isomorphicString1/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HackerrankPg2/out/production/HackerrankPg2/com/shshnk/isomorphicString1/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hackrank/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hackrank/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PassByReference/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PassByReference/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SyncThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/SyncThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khushi/src/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khushi/src/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khushi/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khushi/src/Phone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +61,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Kaiser/IdeaProjects/Thread&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SyncThread">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Thread" />
@@ -54,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SyncThread" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

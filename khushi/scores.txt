@@ -1,0 +1,3 @@
+Player 1,2
+Player 2,1
+Player 3,0
